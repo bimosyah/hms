@@ -60,6 +60,8 @@ $route['admin'] = 'admin/dashboard';
 
 $route['admin/data-kota'] = 'admin/kota';
 
+$route['admin/data-fasilitas'] = 'admin/fasilitas';
+
 $route['admin/data-hotel'] = 'admin/hotel';
 $route['admin/data-hotel/add'] = 'admin/hotel/view_insert';
 $route['admin/data-hotel/(:num)'] = 'admin/hotel/detail/$1';
@@ -67,3 +69,4 @@ $route['admin/data-hotel/edit/(:num)'] = 'admin/hotel/view_edit/$1';
 
 $route['admin/data-hotel/(:num)/room/add'] = 'admin/hotel_room/view_insert';
 $route['admin/data-hotel/(:num)/(:num)/room/edit'] = 'admin/hotel_room/view_edit/$2';
+

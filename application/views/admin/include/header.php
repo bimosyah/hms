@@ -63,13 +63,19 @@
                   <li class="nav-item">
                      <a href="<?php echo site_url("admin/data-kota")?>" <?php echo ($this->uri->segment(2) == "data-kota" ? "class='nav-link active'" : "class='nav-link'")?>>
                         <i class="nav-icon fas fa-th"></i>
-                        <p>Data Kota</p>
+                        <p>Master Data Kota</p>
+                     </a>
+                  </li>
+						<li class="nav-item">
+                     <a href="<?php echo site_url("admin/data-fasilitas")?>" <?php echo ($this->uri->segment(2) == "data-fasilitas" ? "class='nav-link active'" : "class='nav-link'")?>>
+                        <i class="nav-icon fas fa-th"></i>
+                        <p>Master Data Fasilitas Hotel</p>
                      </a>
                   </li>
                   <li class="nav-item">
                      <a href="<?php echo site_url("admin/data-hotel")?>" <?php echo ($this->uri->segment(2) == "data-hotel" ? "class='nav-link active'" : "class='nav-link'")?>>
                         <i class="nav-icon fas fa-th"></i>
-                        <p>Data Hotel</p>
+                        <p>Master Data Hotel</p>
                      </a>
                   </li>
                </ul>
