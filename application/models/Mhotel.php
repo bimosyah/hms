@@ -13,6 +13,7 @@ class Mhotel extends CI_Model {
 		}
 	}
 
+	
 	public function getAll(){
 		$this->db->order_by('dt_create', 'desc');
 		$query = $this->db->query("SELECT tbl_hotel.id, tbl_hotel.id_kota, tbl_kota.nama_kota as nama_kota,tbl_hotel.nama_hotel, tbl_hotel.alamat,tbl_hotel.jml_kamar,tbl_hotel.deskripsi,tbl_hotel.notelp,tbl_hotel.minimum_stay from tbl_hotel JOIN tbl_kota on tbl_kota.id = tbl_hotel.id_kota WHERE tbl_hotel.aktif = 1 ORDER BY tbl_hotel.dt_create");

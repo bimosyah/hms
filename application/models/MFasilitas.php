@@ -12,7 +12,9 @@ class Mfasilitas extends CI_Model {
 		}else{
 			return false;
 		}
-	}
+	} 
+
+	
 
 	public function getAll(){
 		$this->db->where('aktif', 1);

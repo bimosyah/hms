@@ -13,6 +13,7 @@ class Mhotel_room extends CI_Model
 		}
 	}
 
+	
 	public function getAll($id_hotel){
 		$this->db->where('id_hotel', $id_hotel);
 		$this->db->where('aktif', 1);

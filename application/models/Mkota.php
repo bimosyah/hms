@@ -40,6 +40,7 @@ class Mkota extends CI_Model {
 		}		
 	}
 
+	
 }
 
 /* End of file mkota.php */

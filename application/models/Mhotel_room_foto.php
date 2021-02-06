@@ -13,6 +13,7 @@ class Mhotel_room_foto extends CI_Model {
 		return $query->result();
 	}
 
+	
 	public function delete($id_foto){
 		$this->db->where('id', $id_foto);
 		$query = $this->db->update('tbl_hotel_room_foto', array('aktif' => 0));
