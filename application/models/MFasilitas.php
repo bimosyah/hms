@@ -3,7 +3,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class MFasilitas extends CI_Model {
+class Mfasilitas extends CI_Model {
 
 	public function insert($data){
 		$query = $this->db->insert('tbl_fasilitas', $data);
