@@ -18,7 +18,7 @@
 
               <div class="info-box-content">
                 <span class="info-box-text">Kota</span>
-                <span class="info-box-number">10</span>
+                <span class="info-box-number"><?php echo $total_kota?></span>
               </div>
             </div>
           </div>
@@ -28,7 +28,7 @@
 
               <div class="info-box-content">
                 <span class="info-box-text">Hotel</span>
-                <span class="info-box-number">41,410</span>
+                <span class="info-box-number"><?php echo $total_hotel?></span>
               </div>
             </div>
 		  </div>
@@ -38,7 +38,7 @@
               <span class="info-box-icon bg-success elevation-1"><i class="fas fa-shopping-cart"></i></span>
               <div class="info-box-content">
                 <span class="info-box-text">Kamar</span>
-                <span class="info-box-number">760</span>
+                <span class="info-box-number"><?php echo $total_kamar?></span>
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@
 
               <div class="info-box-content">
                 <span class="info-box-text">Transaksi</span>
-                <span class="info-box-number">2,000</span>
+                <span class="info-box-number">0</span>
               </div>
             </div>
           </div>

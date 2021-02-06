@@ -28,3 +28,5 @@
 <!-- Toastr -->
 <script src="<?php echo base_url("assets/admin_lte/plugins/toastr/toastr.min.js")?>"></script>
 
+<!-- Select2 -->
+<script src="<?php echo base_url("assets/admin_lte/plugins/select2/js/select2.full.min.js")?>"></script>

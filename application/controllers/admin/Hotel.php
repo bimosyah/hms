@@ -11,6 +11,7 @@ class Hotel extends CI_Controller {
 		$this->load->model('mkota');
 		$this->load->model('mhotel_foto');
 		$this->load->model('mhotel_room');			
+		$this->load->model('mfasilitas');		
 
 	}
 	
@@ -129,6 +130,7 @@ class Hotel extends CI_Controller {
 	public function detail($id){
 		$data['hotel'] = $this->mhotel->getById($id);
 		$data['tipe_kamar'] = $this->mhotel_room->getAll($id);
+		$data['fasilitas'] = $this->mfasilitas->getAll($id);
 		$this->load->view('admin/hotel/detail', $data);
 	}
 

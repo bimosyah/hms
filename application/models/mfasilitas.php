@@ -14,8 +14,6 @@ class Mfasilitas extends CI_Model {
 		}
 	} 
 
-	
-
 	public function getAll(){
 		$this->db->where('aktif', 1);
 		$this->db->order_by('dt_create', 'desc');

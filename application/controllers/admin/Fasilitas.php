@@ -10,7 +10,6 @@ class Fasilitas extends CI_Controller {
 	{
 		parent::__construct();
 		$this->load->model('mfasilitas');
-		
 	}
 	
 	public function index(){

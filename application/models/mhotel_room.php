@@ -13,9 +13,14 @@ class Mhotel_room extends CI_Model
 		}
 	}
 
-	
 	public function getAll($id_hotel){
 		$this->db->where('id_hotel', $id_hotel);
+		$this->db->where('aktif', 1);
+		$query = $this->db->get('tbl_hotel_room')->result();
+		return $query;
+	}
+
+	public function getDashboard(){
 		$this->db->where('aktif', 1);
 		$query = $this->db->get('tbl_hotel_room')->result();
 		return $query;
