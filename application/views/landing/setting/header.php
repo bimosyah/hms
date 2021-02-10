@@ -21,3 +21,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
 <link rel="stylesheet" href="<?= base_url("assets/landing/css/styles.css")?>" />
+  <!-- Ekko Lightbox -->
+  <link rel="stylesheet" href="<?php echo base_url("assets/admin_lte/plugins/ekko-lightbox/ekko-lightbox.css")?>">
+  <!-- Theme style -->
+  <!-- <link rel="stylesheet" href="<?php //echo base_url("assets/admin_lte/dist/css/adminlte.min.css")?>"> -->

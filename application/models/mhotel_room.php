@@ -20,6 +20,11 @@ class Mhotel_room extends CI_Model
 		return $query;
 	}
 
+	public function getLowestPrice($id_hotel){
+		$query = $this->db->query('SELECT MIN(harga) as harga from tbl_hotel_room where aktif = 1 AND id_hotel = '."'$id_hotel'")->result();
+		return $query;
+	}
+
 	public function getDashboard(){
 		$this->db->where('aktif', 1);
 		$query = $this->db->get('tbl_hotel_room')->result();

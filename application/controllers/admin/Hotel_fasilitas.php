@@ -18,7 +18,7 @@ class Hotel_fasilitas extends CI_Controller {
 		foreach ($id_hotel_fasilitas as $key => $value) {
 			$objek = array(
 				'id_hotel' => $id_hotel,
-				'id_hotel_fasilitas' => $id_hotel_fasilitas[$key],
+				'id_fasilitas' => $id_hotel_fasilitas[$key],
 				'dt_create' => date("Y-m-d H:i:s")
 			);
 			$insert = $this->Mhotel_fasilitas->insert($objek);
